@@ -18,7 +18,7 @@ This app represts a form with two input fieds. The First one for a file with .do
 
 This app uses xUnit framework to test key functionalities
 
-![image](https://github.com/olehkavetskyi/ReenbitTest/assets/110283090/4af60847-1098-46c8-8a6d-98afeb6e8483)
+![image](https://github.com/olehkavetskyi/ReenbitTest/assets/110283090/af1b10ea-2ef8-4553-b8c9-4896f27207e9)
 
 ## Links
 

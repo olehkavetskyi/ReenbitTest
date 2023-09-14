@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReenbitTest", "src\ReenbitTest\ReenbitTest.csproj", "{47055F74-314F-442F-90E9-C0DCB78FB4FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailNotificationFunc", "src\EmailNotificationFunc\EmailNotificationFunc.csproj", "{6C9EF37C-173F-431E-9DCB-5F3C7A600426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailNotificationFunc.Tests", "tests\EmailNotificationFunc.Tests\EmailNotificationFunc.Tests.csproj", "{AFBB5EC5-7C0A-4B93-AA06-5A52EE9538C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D83FAE93-3FEC-4CE2-86B8-F8220D2B1454}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9F93F156-A03F-4CCA-8AF7-4FD54AB8E03E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReenbitTest.Tests", "tests\ReenbitTest.Tests\ReenbitTest.Tests.csproj", "{CB3FD53A-F745-4BD0-A47E-B23536480CAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47055F74-314F-442F-90E9-C0DCB78FB4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47055F74-314F-442F-90E9-C0DCB78FB4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47055F74-314F-442F-90E9-C0DCB78FB4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47055F74-314F-442F-90E9-C0DCB78FB4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9EF37C-173F-431E-9DCB-5F3C7A600426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9EF37C-173F-431E-9DCB-5F3C7A600426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9EF37C-173F-431E-9DCB-5F3C7A600426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9EF37C-173F-431E-9DCB-5F3C7A600426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFBB5EC5-7C0A-4B93-AA06-5A52EE9538C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBB5EC5-7C0A-4B93-AA06-5A52EE9538C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBB5EC5-7C0A-4B93-AA06-5A52EE9538C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBB5EC5-7C0A-4B93-AA06-5A52EE9538C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3FD53A-F745-4BD0-A47E-B23536480CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3FD53A-F745-4BD0-A47E-B23536480CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3FD53A-F745-4BD0-A47E-B23536480CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3FD53A-F745-4BD0-A47E-B23536480CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47055F74-314F-442F-90E9-C0DCB78FB4FD} = {D83FAE93-3FEC-4CE2-86B8-F8220D2B1454}
+		{6C9EF37C-173F-431E-9DCB-5F3C7A600426} = {D83FAE93-3FEC-4CE2-86B8-F8220D2B1454}
+		{AFBB5EC5-7C0A-4B93-AA06-5A52EE9538C5} = {9F93F156-A03F-4CCA-8AF7-4FD54AB8E03E}
+		{CB3FD53A-F745-4BD0-A47E-B23536480CAF} = {9F93F156-A03F-4CCA-8AF7-4FD54AB8E03E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AE84030-7AAF-4FF2-85A8-1973E3DF64BB}
+	EndGlobalSection
+EndGlobal

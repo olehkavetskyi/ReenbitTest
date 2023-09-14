@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="header">
+      <h1>File Uploading System</h1>
+    </div>
+    <form [formGroup]="submitForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label class="file-label" for="file">File:</label>
+          <input class="file-input" accept=".docx" (change)="onFileChange($event)" type="file" id="file" name="file" formControlName="file">
+        <div *ngIf="submitForm.controls['file'].invalid && submitForm.controls['file'].dirty">
+          <div class="warning" *ngIf="submitForm.controls['file'].errors">File is invalid.</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="email-label" for="email">Email:</label>
+        <input class="email-input" type="email" id="email" name="email" formControlName="email">
+        <div *ngIf="submitForm.controls['email'].invalid && (submitForm.controls['email'].dirty || submitForm.controls['email'].touched)">
+          <div class="warning" *ngIf="submitForm.controls['email'].errors">Email is invalid.</div>
+        </div>
+      </div>
+      <div class="upload-div form-group d-grid">
+        <button class="upload-button" type="submit" [disabled]="!submitForm.valid">
+          Upload
+        </button> 
+      </div>
+    </form>
+  </div>

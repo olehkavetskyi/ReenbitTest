@@ -22,4 +22,4 @@ This app uses xUnit framework to test key functionalities
 
 ## Links
 
-1. [A deployed website  ](https://reenbittestclient.azurewebsites.net/)
+1. [A deployed website  ](https://reenbittestclient.azurewebsites.net/) (deactivated)
